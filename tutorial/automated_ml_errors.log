@@ -1,0 +1,980 @@
+2020-10-26 02:02:58.179 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:217 - No compute target or run config provided. Running local legacy run.
+2020-10-26 02:02:59.180 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:257 - Submitting local legacy run.
+2020-10-26 02:02:59.181 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:46 - ActivityStarted: PackagesCheck
+2020-10-26 02:02:59.182 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-telemetry, Version: 1.16.0 found.
+2020-10-26 02:02:59.183 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataset-runtime, Version: 1.16.0 found.
+2020-10-26 02:02:59.184 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:02:59.185 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-core, Version: 1.16.0.post1 found.
+2020-10-26 02:02:59.186 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-rslex, Version: 1.1.1 found.
+2020-10-26 02:02:59.187 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:02:59.196 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cloudpickle, Version: 1.6.0 found.
+2020-10-26 02:02:59.214 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-native, Version: 23.0.0 found.
+2020-10-26 02:02:59.215 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:02:59.215 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:02:59.216 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cryptography, Version: 3.1.1 found.
+2020-10-26 02:02:59.216 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pytz, Version: 2020.1 found.
+2020-10-26 02:02:59.216 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jsonpickle, Version: 1.4.1 found.
+2020-10-26 02:02:59.217 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:02:59.217 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: urllib3, Version: 1.23 found.
+2020-10-26 02:02:59.217 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: python-dateutil, Version: 2.8.1 found.
+2020-10-26 02:02:59.218 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:02:59.218 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:02:59.219 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:02:59.219 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: requests, Version: 2.24.0 found.
+2020-10-26 02:02:59.219 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:02:59.220 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:02:59.220 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:02:59.220 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ndg-httpsclient, Version: 0.5.1 found.
+2020-10-26 02:02:59.221 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: adal, Version: 1.2.4 found.
+2020-10-26 02:02:59.221 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:02:59.222 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:02:59.222 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:02:59.222 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pathspec, Version: 0.8.0 found.
+2020-10-26 02:02:59.222 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyopenssl, Version: 19.1.0 found.
+2020-10-26 02:02:59.223 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyjwt, Version: 1.7.1 found.
+2020-10-26 02:02:59.223 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:02:59.224 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: contextlib2, Version: 0.6.0.post1 found.
+2020-10-26 02:02:59.224 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:02:59.224 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jmespath, Version: 0.10.0 found.
+2020-10-26 02:02:59.224 - INFO - 8892 - azureml.automl.core.package_utilities._get_package_incompatibilities:401 - Verified requirements file validated_win32_requirements.txt found.
+2020-10-26 02:03:07.550 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:03:07.550 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:03:07.551 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-core, Version: 1.8.2 found.
+2020-10-26 02:03:07.552 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:03:07.553 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:03:07.554 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:03:07.554 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:03:07.554 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:03:07.555 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:03:07.555 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:03:07.556 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:03:07.556 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.weakref, Version: 1.0.post1 found.
+2020-10-26 02:03:07.558 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto3 missing from working set.
+2020-10-26 02:03:07.571 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto missing from working set.
+2020-10-26 02:03:07.572 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package botocore missing from working set.
+2020-10-26 02:03:07.572 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package click missing from working set.
+2020-10-26 02:03:07.573 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package configparser missing from working set.
+2020-10-26 02:03:07.573 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package cython missing from working set.
+2020-10-26 02:03:07.574 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package dill missing from working set.
+2020-10-26 02:03:07.574 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: distro, Version: 1.5.0 found.
+2020-10-26 02:03:07.575 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:03:07.575 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:03:07.575 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package fire missing from working set.
+2020-10-26 02:03:07.576 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package flask missing from working set.
+2020-10-26 02:03:07.576 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: fusepy, Version: 3.0.1 found.
+2020-10-26 02:03:07.577 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gensim missing from working set.
+2020-10-26 02:03:07.577 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gunicorn missing from working set.
+2020-10-26 02:03:07.577 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-community missing from working set.
+2020-10-26 02:03:07.578 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-core missing from working set.
+2020-10-26 02:03:07.578 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package itsdangerous missing from working set.
+2020-10-26 02:03:07.579 - WARNING - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:283 - Package: joblib, Version: 0.17.0 found.
+2020-10-26 02:03:07.579 - ERROR - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:310 - found incompatible requirement joblib 0.17.0 but expected joblib<=0.14.1.
+2020-10-26 02:03:07.579 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package json-logging-py missing from working set.
+2020-10-26 02:03:07.580 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package keras2onnx missing from working set.
+2020-10-26 02:03:07.580 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package liac-arff missing from working set.
+2020-10-26 02:03:07.580 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package lightgbm missing from working set.
+2020-10-26 02:03:07.581 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal-extensions, Version: 0.2.2 found.
+2020-10-26 02:03:07.581 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal, Version: 1.5.0 found.
+2020-10-26 02:03:07.582 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:03:07.582 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:03:07.582 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package nimbusml missing from working set.
+2020-10-26 02:03:07.583 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnx missing from working set.
+2020-10-26 02:03:07.583 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxconverter-common missing from working set.
+2020-10-26 02:03:07.583 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxmltools missing from working set.
+2020-10-26 02:03:07.584 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxruntime missing from working set.
+2020-10-26 02:03:07.584 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package patsy missing from working set.
+2020-10-26 02:03:07.584 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package pmdarima missing from working set.
+2020-10-26 02:03:07.585 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package protobuf missing from working set.
+2020-10-26 02:03:07.585 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package psutil missing from working set.
+2020-10-26 02:03:07.585 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package py-cpuinfo missing from working set.
+2020-10-26 02:03:07.586 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyarrow, Version: 1.0.1 found.
+2020-10-26 02:03:07.586 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml.clib, Version: 0.2.2 found.
+2020-10-26 02:03:07.587 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:03:07.587 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package s3transfer missing from working set.
+2020-10-26 02:03:07.587 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:03:07.588 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package shap missing from working set.
+2020-10-26 02:03:07.588 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package skl2onnx missing from working set.
+2020-10-26 02:03:07.588 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package sklearn-pandas missing from working set.
+2020-10-26 02:03:07.589 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package smart-open missing from working set.
+2020-10-26 02:03:07.589 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package statsmodels missing from working set.
+2020-10-26 02:03:07.590 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package termcolor missing from working set.
+2020-10-26 02:03:07.590 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package typing-extensions missing from working set.
+2020-10-26 02:03:07.590 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package werkzeug missing from working set.
+2020-10-26 02:03:07.591 - INFO - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:315 - User has the following compatible packages installed:
+applicationinsights==0.11.9
+azure-common==1.1.25
+azure-core==1.8.2
+azure-graphrbac==0.61.1
+azure-identity==1.4.1
+azure-mgmt-authorization==0.61.0
+azure-mgmt-containerregistry==2.8.0
+azure-mgmt-keyvault==2.2.0
+azure-mgmt-resource==10.2.0
+azure-mgmt-storage==11.2.0
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+distro==1.5.0
+docker==4.3.1
+dotnetcore2==2.1.17
+fusepy==3.0.1
+msal-extensions==0.2.2
+msal==1.5.0
+msrest==0.6.19
+msrestazure==0.6.4
+pyarrow==1.0.1
+ruamel.yaml.clib==0.2.2
+ruamel.yaml==0.16.12
+secretstorage==3.1.2
+2020-10-26 02:03:07.591 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:319 - Skipping package validation check for non pypi packages:
+adal==1.2.4
+certifi==2020.6.20
+cffi==1.14.3
+chardet==3.0.4
+cloudpickle==1.6.0
+contextlib2==0.6.0.post1
+cryptography==3.1.1
+idna==2.10
+importlib-metadata==2.0.0
+isodate==0.6.0
+jeepney==0.4.3
+jinja2==2.11.2
+jmespath==0.10.0
+jsonpickle==1.4.1
+markupsafe==1.1.1
+ndg-httpsclient==0.5.1
+numpy==1.18.5
+oauthlib==3.1.0
+packaging==20.4
+pandas==0.25.3
+pathspec==0.7.0
+portalocker==1.7.1
+pyasn1==0.4.8
+pycparser==2.20
+pyjwt==1.7.1
+pyopenssl==19.1.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.1
+pywin32==227
+requests-oauthlib==1.3.0
+requests==2.24.0
+scikit-learn==0.22.1
+scipy==1.4.1
+six==1.15.0
+tqdm==4.31.1
+urllib3==1.24.3
+websocket-client==0.57.0
+zipp==3.3.0
+2020-10-26 02:03:07.594 - CRITICAL - 8892 - azureml.automl.core.package_utilities.log_traceback:224 - Type: IncompatibleOrMissingDependency
+Class: ValidationException
+Message: ValidationException:
+	Message: Install the required versions of packages using the requirements file. Requirements file location: c:\programdata\miniconda3\lib\site-packages\azureml\automl\core\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. 
+Required version/Installed version
+joblib<=0.14.1/joblib 0.17.0
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Install the required versions of packages using the requirements file. Requirements file location: c:\\programdata\\miniconda3\\lib\\site-packages\\azureml\\automl\\core\\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. \nRequired version/Installed version\njoblib<=0.14.1/joblib 0.17.0",
+        "inner_error": {
+            "code": "NotSupported",
+            "inner_error": {
+                "code": "IncompatibleOrMissingDependency"
+            }
+        },
+        "reference_code": "65e7ad52-ad1f-4915-85ad-440d0a5e221f"
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 49, in _log_activity
+    yield
+  File "package_utilities.py", line 465, in _get_package_incompatibilities
+    validated_requirements_file_path=VALIDATED_REQ_FILE_PATH
+
+ExceptionTarget: Unspecified
+2020-10-26 02:03:07.595 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:70 - ActivityCompleted: Activity=PackagesCheck, HowEnded=Failure, Duration=8413.85[ms]
+2020-10-26 02:05:52.023 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:223 - Local run configuration provided with docker set to False. Running local managed run.
+2020-10-26 02:05:52.023 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:257 - Submitting local legacy run.
+2020-10-26 02:05:52.026 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:46 - ActivityStarted: PackagesCheck
+2020-10-26 02:05:52.027 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-telemetry, Version: 1.16.0 found.
+2020-10-26 02:05:52.047 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataset-runtime, Version: 1.16.0 found.
+2020-10-26 02:05:52.053 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:05:52.054 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-core, Version: 1.16.0.post1 found.
+2020-10-26 02:05:52.055 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-rslex, Version: 1.1.1 found.
+2020-10-26 02:05:52.055 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:05:52.055 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cloudpickle, Version: 1.6.0 found.
+2020-10-26 02:05:52.056 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-native, Version: 23.0.0 found.
+2020-10-26 02:05:52.056 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:05:52.056 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:05:52.056 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cryptography, Version: 3.1.1 found.
+2020-10-26 02:05:52.057 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pytz, Version: 2020.1 found.
+2020-10-26 02:05:52.057 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jsonpickle, Version: 1.4.1 found.
+2020-10-26 02:05:52.057 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:05:52.057 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: urllib3, Version: 1.23 found.
+2020-10-26 02:05:52.059 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: python-dateutil, Version: 2.8.1 found.
+2020-10-26 02:05:52.061 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:05:52.061 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:05:52.062 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:05:52.062 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: requests, Version: 2.24.0 found.
+2020-10-26 02:05:52.062 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:05:52.062 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:05:52.063 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:05:52.063 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ndg-httpsclient, Version: 0.5.1 found.
+2020-10-26 02:05:52.065 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: adal, Version: 1.2.4 found.
+2020-10-26 02:05:52.065 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:05:52.065 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:05:52.066 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:05:52.066 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pathspec, Version: 0.8.0 found.
+2020-10-26 02:05:52.066 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyopenssl, Version: 19.1.0 found.
+2020-10-26 02:05:52.067 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyjwt, Version: 1.7.1 found.
+2020-10-26 02:05:52.068 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:05:52.068 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: contextlib2, Version: 0.6.0.post1 found.
+2020-10-26 02:05:52.068 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:05:52.069 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jmespath, Version: 0.10.0 found.
+2020-10-26 02:05:52.069 - INFO - 8892 - azureml.automl.core.package_utilities._get_package_incompatibilities:401 - Verified requirements file validated_win32_requirements.txt found.
+2020-10-26 02:05:55.304 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:05:55.305 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:05:55.306 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-core, Version: 1.8.2 found.
+2020-10-26 02:05:55.306 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:05:55.307 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:05:55.308 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:05:55.308 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:05:55.308 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:05:55.309 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:05:55.310 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:05:55.310 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:05:55.311 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.weakref, Version: 1.0.post1 found.
+2020-10-26 02:05:55.311 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto3 missing from working set.
+2020-10-26 02:05:55.311 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto missing from working set.
+2020-10-26 02:05:55.312 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package botocore missing from working set.
+2020-10-26 02:05:55.312 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package click missing from working set.
+2020-10-26 02:05:55.313 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package configparser missing from working set.
+2020-10-26 02:05:55.313 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package cython missing from working set.
+2020-10-26 02:05:55.313 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package dill missing from working set.
+2020-10-26 02:05:55.314 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: distro, Version: 1.5.0 found.
+2020-10-26 02:05:55.314 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:05:55.315 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:05:55.315 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package fire missing from working set.
+2020-10-26 02:05:55.315 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package flask missing from working set.
+2020-10-26 02:05:55.316 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: fusepy, Version: 3.0.1 found.
+2020-10-26 02:05:55.316 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gensim missing from working set.
+2020-10-26 02:05:55.316 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gunicorn missing from working set.
+2020-10-26 02:05:55.317 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-community missing from working set.
+2020-10-26 02:05:55.317 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-core missing from working set.
+2020-10-26 02:05:55.318 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package itsdangerous missing from working set.
+2020-10-26 02:05:55.318 - WARNING - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:283 - Package: joblib, Version: 0.17.0 found.
+2020-10-26 02:05:55.319 - ERROR - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:310 - found incompatible requirement joblib 0.17.0 but expected joblib<=0.14.1.
+2020-10-26 02:05:55.319 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package json-logging-py missing from working set.
+2020-10-26 02:05:55.319 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package keras2onnx missing from working set.
+2020-10-26 02:05:55.320 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package liac-arff missing from working set.
+2020-10-26 02:05:55.320 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package lightgbm missing from working set.
+2020-10-26 02:05:55.321 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal-extensions, Version: 0.2.2 found.
+2020-10-26 02:05:55.321 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal, Version: 1.5.0 found.
+2020-10-26 02:05:55.321 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:05:55.322 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:05:55.322 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package nimbusml missing from working set.
+2020-10-26 02:05:55.323 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnx missing from working set.
+2020-10-26 02:05:55.323 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxconverter-common missing from working set.
+2020-10-26 02:05:55.324 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxmltools missing from working set.
+2020-10-26 02:05:55.324 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxruntime missing from working set.
+2020-10-26 02:05:55.324 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package patsy missing from working set.
+2020-10-26 02:05:55.324 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package pmdarima missing from working set.
+2020-10-26 02:05:55.324 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package protobuf missing from working set.
+2020-10-26 02:05:55.324 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package psutil missing from working set.
+2020-10-26 02:05:55.325 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package py-cpuinfo missing from working set.
+2020-10-26 02:05:55.325 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyarrow, Version: 1.0.1 found.
+2020-10-26 02:05:55.325 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml.clib, Version: 0.2.2 found.
+2020-10-26 02:05:55.325 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:05:55.326 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package s3transfer missing from working set.
+2020-10-26 02:05:55.326 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:05:55.327 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package shap missing from working set.
+2020-10-26 02:05:55.327 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package skl2onnx missing from working set.
+2020-10-26 02:05:55.327 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package sklearn-pandas missing from working set.
+2020-10-26 02:05:55.327 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package smart-open missing from working set.
+2020-10-26 02:05:55.328 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package statsmodels missing from working set.
+2020-10-26 02:05:55.328 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package termcolor missing from working set.
+2020-10-26 02:05:55.328 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package typing-extensions missing from working set.
+2020-10-26 02:05:55.329 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package werkzeug missing from working set.
+2020-10-26 02:05:55.329 - INFO - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:315 - User has the following compatible packages installed:
+applicationinsights==0.11.9
+azure-common==1.1.25
+azure-core==1.8.2
+azure-graphrbac==0.61.1
+azure-identity==1.4.1
+azure-mgmt-authorization==0.61.0
+azure-mgmt-containerregistry==2.8.0
+azure-mgmt-keyvault==2.2.0
+azure-mgmt-resource==10.2.0
+azure-mgmt-storage==11.2.0
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+distro==1.5.0
+docker==4.3.1
+dotnetcore2==2.1.17
+fusepy==3.0.1
+msal-extensions==0.2.2
+msal==1.5.0
+msrest==0.6.19
+msrestazure==0.6.4
+pyarrow==1.0.1
+ruamel.yaml.clib==0.2.2
+ruamel.yaml==0.16.12
+secretstorage==3.1.2
+2020-10-26 02:05:55.329 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:319 - Skipping package validation check for non pypi packages:
+adal==1.2.4
+certifi==2020.6.20
+cffi==1.14.3
+chardet==3.0.4
+cloudpickle==1.6.0
+contextlib2==0.6.0.post1
+cryptography==3.1.1
+idna==2.10
+importlib-metadata==2.0.0
+isodate==0.6.0
+jeepney==0.4.3
+jinja2==2.11.2
+jmespath==0.10.0
+jsonpickle==1.4.1
+markupsafe==1.1.1
+ndg-httpsclient==0.5.1
+numpy==1.18.5
+oauthlib==3.1.0
+packaging==20.4
+pandas==0.25.3
+pathspec==0.7.0
+portalocker==1.7.1
+pyasn1==0.4.8
+pycparser==2.20
+pyjwt==1.7.1
+pyopenssl==19.1.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.1
+pywin32==227
+requests-oauthlib==1.3.0
+requests==2.24.0
+scikit-learn==0.22.1
+scipy==1.4.1
+six==1.15.0
+tqdm==4.31.1
+urllib3==1.24.3
+websocket-client==0.57.0
+zipp==3.3.0
+2020-10-26 02:05:55.330 - CRITICAL - 8892 - azureml.automl.core.package_utilities.log_traceback:224 - Type: IncompatibleOrMissingDependency
+Class: ValidationException
+Message: ValidationException:
+	Message: Install the required versions of packages using the requirements file. Requirements file location: c:\programdata\miniconda3\lib\site-packages\azureml\automl\core\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. 
+Required version/Installed version
+joblib<=0.14.1/joblib 0.17.0
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Install the required versions of packages using the requirements file. Requirements file location: c:\\programdata\\miniconda3\\lib\\site-packages\\azureml\\automl\\core\\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. \nRequired version/Installed version\njoblib<=0.14.1/joblib 0.17.0",
+        "inner_error": {
+            "code": "NotSupported",
+            "inner_error": {
+                "code": "IncompatibleOrMissingDependency"
+            }
+        },
+        "reference_code": "65e7ad52-ad1f-4915-85ad-440d0a5e221f"
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 49, in _log_activity
+    yield
+  File "package_utilities.py", line 465, in _get_package_incompatibilities
+    validated_requirements_file_path=VALIDATED_REQ_FILE_PATH
+
+ExceptionTarget: Unspecified
+2020-10-26 02:05:55.332 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:70 - ActivityCompleted: Activity=PackagesCheck, HowEnded=Failure, Duration=3304.98[ms]
+2020-10-26 02:09:41.164 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:223 - Local run configuration provided with docker set to False. Running local managed run.
+2020-10-26 02:09:41.164 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:257 - Submitting local legacy run.
+2020-10-26 02:09:41.166 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:46 - ActivityStarted: PackagesCheck
+2020-10-26 02:09:41.168 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-telemetry, Version: 1.16.0 found.
+2020-10-26 02:09:41.175 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataset-runtime, Version: 1.16.0 found.
+2020-10-26 02:09:41.188 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:09:41.189 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-core, Version: 1.16.0.post1 found.
+2020-10-26 02:09:41.195 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-rslex, Version: 1.1.1 found.
+2020-10-26 02:09:41.196 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:09:41.197 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cloudpickle, Version: 1.6.0 found.
+2020-10-26 02:09:41.197 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-native, Version: 23.0.0 found.
+2020-10-26 02:09:41.197 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:09:41.198 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:09:41.199 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cryptography, Version: 3.1.1 found.
+2020-10-26 02:09:41.199 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pytz, Version: 2020.1 found.
+2020-10-26 02:09:41.200 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jsonpickle, Version: 1.4.1 found.
+2020-10-26 02:09:41.200 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:09:41.201 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: urllib3, Version: 1.23 found.
+2020-10-26 02:09:41.201 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: python-dateutil, Version: 2.8.1 found.
+2020-10-26 02:09:41.201 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:09:41.202 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:09:41.203 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:09:41.203 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: requests, Version: 2.24.0 found.
+2020-10-26 02:09:41.204 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:09:41.204 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:09:41.204 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:09:41.205 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ndg-httpsclient, Version: 0.5.1 found.
+2020-10-26 02:09:41.205 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: adal, Version: 1.2.4 found.
+2020-10-26 02:09:41.206 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:09:41.206 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:09:41.207 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:09:41.207 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pathspec, Version: 0.8.0 found.
+2020-10-26 02:09:41.207 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyopenssl, Version: 19.1.0 found.
+2020-10-26 02:09:41.208 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyjwt, Version: 1.7.1 found.
+2020-10-26 02:09:41.208 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:09:41.209 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: contextlib2, Version: 0.6.0.post1 found.
+2020-10-26 02:09:41.209 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:09:41.210 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jmespath, Version: 0.10.0 found.
+2020-10-26 02:09:41.210 - INFO - 8892 - azureml.automl.core.package_utilities._get_package_incompatibilities:401 - Verified requirements file validated_win32_requirements.txt found.
+2020-10-26 02:09:44.839 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:09:44.839 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:09:44.839 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-core, Version: 1.8.2 found.
+2020-10-26 02:09:44.840 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:09:44.840 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:09:44.840 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:09:44.841 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:09:44.841 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:09:44.842 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:09:44.842 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:09:44.842 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:09:44.843 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.weakref, Version: 1.0.post1 found.
+2020-10-26 02:09:44.843 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto3 missing from working set.
+2020-10-26 02:09:44.843 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto missing from working set.
+2020-10-26 02:09:44.844 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package botocore missing from working set.
+2020-10-26 02:09:44.844 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package click missing from working set.
+2020-10-26 02:09:44.844 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package configparser missing from working set.
+2020-10-26 02:09:44.844 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package cython missing from working set.
+2020-10-26 02:09:44.844 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package dill missing from working set.
+2020-10-26 02:09:44.844 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: distro, Version: 1.5.0 found.
+2020-10-26 02:09:44.845 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:09:44.845 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:09:44.846 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package fire missing from working set.
+2020-10-26 02:09:44.848 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package flask missing from working set.
+2020-10-26 02:09:44.848 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: fusepy, Version: 3.0.1 found.
+2020-10-26 02:09:44.849 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gensim missing from working set.
+2020-10-26 02:09:44.849 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gunicorn missing from working set.
+2020-10-26 02:09:44.850 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-community missing from working set.
+2020-10-26 02:09:44.850 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-core missing from working set.
+2020-10-26 02:09:44.850 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package itsdangerous missing from working set.
+2020-10-26 02:09:44.851 - WARNING - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:283 - Package: joblib, Version: 0.17.0 found.
+2020-10-26 02:09:44.851 - ERROR - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:310 - found incompatible requirement joblib 0.17.0 but expected joblib<=0.14.1.
+2020-10-26 02:09:44.851 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package json-logging-py missing from working set.
+2020-10-26 02:09:44.852 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package keras2onnx missing from working set.
+2020-10-26 02:09:44.852 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package liac-arff missing from working set.
+2020-10-26 02:09:44.853 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package lightgbm missing from working set.
+2020-10-26 02:09:44.854 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal-extensions, Version: 0.2.2 found.
+2020-10-26 02:09:44.854 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal, Version: 1.5.0 found.
+2020-10-26 02:09:44.855 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:09:44.855 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:09:44.855 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package nimbusml missing from working set.
+2020-10-26 02:09:44.856 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnx missing from working set.
+2020-10-26 02:09:44.856 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxconverter-common missing from working set.
+2020-10-26 02:09:44.856 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxmltools missing from working set.
+2020-10-26 02:09:44.857 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxruntime missing from working set.
+2020-10-26 02:09:44.857 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package patsy missing from working set.
+2020-10-26 02:09:44.858 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package pmdarima missing from working set.
+2020-10-26 02:09:44.858 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package protobuf missing from working set.
+2020-10-26 02:09:44.858 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package psutil missing from working set.
+2020-10-26 02:09:44.858 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package py-cpuinfo missing from working set.
+2020-10-26 02:09:44.859 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyarrow, Version: 1.0.1 found.
+2020-10-26 02:09:44.859 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml.clib, Version: 0.2.2 found.
+2020-10-26 02:09:44.860 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:09:44.860 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package s3transfer missing from working set.
+2020-10-26 02:09:44.861 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:09:44.861 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package shap missing from working set.
+2020-10-26 02:09:44.861 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package skl2onnx missing from working set.
+2020-10-26 02:09:44.862 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package sklearn-pandas missing from working set.
+2020-10-26 02:09:44.862 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package smart-open missing from working set.
+2020-10-26 02:09:44.863 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package statsmodels missing from working set.
+2020-10-26 02:09:44.863 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package termcolor missing from working set.
+2020-10-26 02:09:44.863 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package typing-extensions missing from working set.
+2020-10-26 02:09:44.863 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package werkzeug missing from working set.
+2020-10-26 02:09:44.864 - INFO - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:315 - User has the following compatible packages installed:
+applicationinsights==0.11.9
+azure-common==1.1.25
+azure-core==1.8.2
+azure-graphrbac==0.61.1
+azure-identity==1.4.1
+azure-mgmt-authorization==0.61.0
+azure-mgmt-containerregistry==2.8.0
+azure-mgmt-keyvault==2.2.0
+azure-mgmt-resource==10.2.0
+azure-mgmt-storage==11.2.0
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+distro==1.5.0
+docker==4.3.1
+dotnetcore2==2.1.17
+fusepy==3.0.1
+msal-extensions==0.2.2
+msal==1.5.0
+msrest==0.6.19
+msrestazure==0.6.4
+pyarrow==1.0.1
+ruamel.yaml.clib==0.2.2
+ruamel.yaml==0.16.12
+secretstorage==3.1.2
+2020-10-26 02:09:44.864 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:319 - Skipping package validation check for non pypi packages:
+adal==1.2.4
+certifi==2020.6.20
+cffi==1.14.3
+chardet==3.0.4
+cloudpickle==1.6.0
+contextlib2==0.6.0.post1
+cryptography==3.1.1
+idna==2.10
+importlib-metadata==2.0.0
+isodate==0.6.0
+jeepney==0.4.3
+jinja2==2.11.2
+jmespath==0.10.0
+jsonpickle==1.4.1
+markupsafe==1.1.1
+ndg-httpsclient==0.5.1
+numpy==1.18.5
+oauthlib==3.1.0
+packaging==20.4
+pandas==0.25.3
+pathspec==0.7.0
+portalocker==1.7.1
+pyasn1==0.4.8
+pycparser==2.20
+pyjwt==1.7.1
+pyopenssl==19.1.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.1
+pywin32==227
+requests-oauthlib==1.3.0
+requests==2.24.0
+scikit-learn==0.22.1
+scipy==1.4.1
+six==1.15.0
+tqdm==4.31.1
+urllib3==1.24.3
+websocket-client==0.57.0
+zipp==3.3.0
+2020-10-26 02:09:44.866 - CRITICAL - 8892 - azureml.automl.core.package_utilities.log_traceback:224 - Type: IncompatibleOrMissingDependency
+Class: ValidationException
+Message: ValidationException:
+	Message: Install the required versions of packages using the requirements file. Requirements file location: c:\programdata\miniconda3\lib\site-packages\azureml\automl\core\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. 
+Required version/Installed version
+joblib<=0.14.1/joblib 0.17.0
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Install the required versions of packages using the requirements file. Requirements file location: c:\\programdata\\miniconda3\\lib\\site-packages\\azureml\\automl\\core\\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. \nRequired version/Installed version\njoblib<=0.14.1/joblib 0.17.0",
+        "inner_error": {
+            "code": "NotSupported",
+            "inner_error": {
+                "code": "IncompatibleOrMissingDependency"
+            }
+        },
+        "reference_code": "65e7ad52-ad1f-4915-85ad-440d0a5e221f"
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 49, in _log_activity
+    yield
+  File "package_utilities.py", line 465, in _get_package_incompatibilities
+    validated_requirements_file_path=VALIDATED_REQ_FILE_PATH
+
+ExceptionTarget: Unspecified
+2020-10-26 02:09:44.866 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:70 - ActivityCompleted: Activity=PackagesCheck, HowEnded=Failure, Duration=3700.51[ms]
+2020-10-26 02:17:45.423 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:223 - Local run configuration provided with docker set to False. Running local managed run.
+2020-10-26 02:17:45.423 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:257 - Submitting local legacy run.
+2020-10-26 02:17:45.425 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:46 - ActivityStarted: PackagesCheck
+2020-10-26 02:17:45.427 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-telemetry, Version: 1.16.0 found.
+2020-10-26 02:17:45.434 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataset-runtime, Version: 1.16.0 found.
+2020-10-26 02:17:45.435 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:17:45.450 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-core, Version: 1.16.0.post1 found.
+2020-10-26 02:17:45.455 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-rslex, Version: 1.1.1 found.
+2020-10-26 02:17:45.455 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:17:45.456 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cloudpickle, Version: 1.6.0 found.
+2020-10-26 02:17:45.456 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-native, Version: 23.0.0 found.
+2020-10-26 02:17:45.457 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:17:45.458 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:17:45.458 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cryptography, Version: 3.1.1 found.
+2020-10-26 02:17:45.459 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pytz, Version: 2020.1 found.
+2020-10-26 02:17:45.459 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jsonpickle, Version: 1.4.1 found.
+2020-10-26 02:17:45.460 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:17:45.460 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: urllib3, Version: 1.23 found.
+2020-10-26 02:17:45.461 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: python-dateutil, Version: 2.8.1 found.
+2020-10-26 02:17:45.462 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:17:45.462 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:17:45.463 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:17:45.463 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: requests, Version: 2.24.0 found.
+2020-10-26 02:17:45.464 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:17:45.465 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:17:45.465 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:17:45.466 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ndg-httpsclient, Version: 0.5.1 found.
+2020-10-26 02:17:45.466 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: adal, Version: 1.2.4 found.
+2020-10-26 02:17:45.467 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:17:45.467 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:17:45.467 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:17:45.468 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pathspec, Version: 0.8.0 found.
+2020-10-26 02:17:45.468 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyopenssl, Version: 19.1.0 found.
+2020-10-26 02:17:45.469 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyjwt, Version: 1.7.1 found.
+2020-10-26 02:17:45.469 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:17:45.469 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: contextlib2, Version: 0.6.0.post1 found.
+2020-10-26 02:17:45.470 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:17:45.470 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jmespath, Version: 0.10.0 found.
+2020-10-26 02:17:45.471 - INFO - 8892 - azureml.automl.core.package_utilities._get_package_incompatibilities:401 - Verified requirements file validated_win32_requirements.txt found.
+2020-10-26 02:17:49.020 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:17:49.020 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:17:49.021 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-core, Version: 1.8.2 found.
+2020-10-26 02:17:49.022 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:17:49.023 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:17:49.023 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:17:49.024 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:17:49.024 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:17:49.025 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:17:49.025 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:17:49.026 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:17:49.026 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.weakref, Version: 1.0.post1 found.
+2020-10-26 02:17:49.027 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto3 missing from working set.
+2020-10-26 02:17:49.027 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto missing from working set.
+2020-10-26 02:17:49.028 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package botocore missing from working set.
+2020-10-26 02:17:49.028 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package click missing from working set.
+2020-10-26 02:17:49.029 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package configparser missing from working set.
+2020-10-26 02:17:49.029 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package cython missing from working set.
+2020-10-26 02:17:49.030 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package dill missing from working set.
+2020-10-26 02:17:49.030 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: distro, Version: 1.5.0 found.
+2020-10-26 02:17:49.030 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:17:49.030 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:17:49.031 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package fire missing from working set.
+2020-10-26 02:17:49.031 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package flask missing from working set.
+2020-10-26 02:17:49.033 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: fusepy, Version: 3.0.1 found.
+2020-10-26 02:17:49.033 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gensim missing from working set.
+2020-10-26 02:17:49.033 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gunicorn missing from working set.
+2020-10-26 02:17:49.033 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-community missing from working set.
+2020-10-26 02:17:49.034 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-core missing from working set.
+2020-10-26 02:17:49.035 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package itsdangerous missing from working set.
+2020-10-26 02:17:49.036 - WARNING - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:283 - Package: joblib, Version: 0.17.0 found.
+2020-10-26 02:17:49.036 - ERROR - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:310 - found incompatible requirement joblib 0.17.0 but expected joblib<=0.14.1.
+2020-10-26 02:17:49.036 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package json-logging-py missing from working set.
+2020-10-26 02:17:49.037 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package keras2onnx missing from working set.
+2020-10-26 02:17:49.038 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package liac-arff missing from working set.
+2020-10-26 02:17:49.038 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package lightgbm missing from working set.
+2020-10-26 02:17:49.039 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal-extensions, Version: 0.2.2 found.
+2020-10-26 02:17:49.039 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal, Version: 1.5.0 found.
+2020-10-26 02:17:49.040 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:17:49.040 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:17:49.041 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package nimbusml missing from working set.
+2020-10-26 02:17:49.041 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnx missing from working set.
+2020-10-26 02:17:49.041 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxconverter-common missing from working set.
+2020-10-26 02:17:49.042 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxmltools missing from working set.
+2020-10-26 02:17:49.042 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxruntime missing from working set.
+2020-10-26 02:17:49.042 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package patsy missing from working set.
+2020-10-26 02:17:49.043 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package pmdarima missing from working set.
+2020-10-26 02:17:49.043 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package protobuf missing from working set.
+2020-10-26 02:17:49.043 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package psutil missing from working set.
+2020-10-26 02:17:49.044 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package py-cpuinfo missing from working set.
+2020-10-26 02:17:49.045 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyarrow, Version: 1.0.1 found.
+2020-10-26 02:17:49.045 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml.clib, Version: 0.2.2 found.
+2020-10-26 02:17:49.046 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:17:49.046 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package s3transfer missing from working set.
+2020-10-26 02:17:49.046 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:17:49.047 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package shap missing from working set.
+2020-10-26 02:17:49.047 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package skl2onnx missing from working set.
+2020-10-26 02:17:49.047 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package sklearn-pandas missing from working set.
+2020-10-26 02:17:49.047 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package smart-open missing from working set.
+2020-10-26 02:17:49.048 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package statsmodels missing from working set.
+2020-10-26 02:17:49.048 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package termcolor missing from working set.
+2020-10-26 02:17:49.048 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package typing-extensions missing from working set.
+2020-10-26 02:17:49.050 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package werkzeug missing from working set.
+2020-10-26 02:17:49.050 - INFO - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:315 - User has the following compatible packages installed:
+applicationinsights==0.11.9
+azure-common==1.1.25
+azure-core==1.8.2
+azure-graphrbac==0.61.1
+azure-identity==1.4.1
+azure-mgmt-authorization==0.61.0
+azure-mgmt-containerregistry==2.8.0
+azure-mgmt-keyvault==2.2.0
+azure-mgmt-resource==10.2.0
+azure-mgmt-storage==11.2.0
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+distro==1.5.0
+docker==4.3.1
+dotnetcore2==2.1.17
+fusepy==3.0.1
+msal-extensions==0.2.2
+msal==1.5.0
+msrest==0.6.19
+msrestazure==0.6.4
+pyarrow==1.0.1
+ruamel.yaml.clib==0.2.2
+ruamel.yaml==0.16.12
+secretstorage==3.1.2
+2020-10-26 02:17:49.050 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:319 - Skipping package validation check for non pypi packages:
+adal==1.2.4
+certifi==2020.6.20
+cffi==1.14.3
+chardet==3.0.4
+cloudpickle==1.6.0
+contextlib2==0.6.0.post1
+cryptography==3.1.1
+idna==2.10
+importlib-metadata==2.0.0
+isodate==0.6.0
+jeepney==0.4.3
+jinja2==2.11.2
+jmespath==0.10.0
+jsonpickle==1.4.1
+markupsafe==1.1.1
+ndg-httpsclient==0.5.1
+numpy==1.18.5
+oauthlib==3.1.0
+packaging==20.4
+pandas==0.25.3
+pathspec==0.7.0
+portalocker==1.7.1
+pyasn1==0.4.8
+pycparser==2.20
+pyjwt==1.7.1
+pyopenssl==19.1.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.1
+pywin32==227
+requests-oauthlib==1.3.0
+requests==2.24.0
+scikit-learn==0.22.1
+scipy==1.4.1
+six==1.15.0
+tqdm==4.31.1
+urllib3==1.24.3
+websocket-client==0.57.0
+zipp==3.3.0
+2020-10-26 02:17:49.052 - CRITICAL - 8892 - azureml.automl.core.package_utilities.log_traceback:224 - Type: IncompatibleOrMissingDependency
+Class: ValidationException
+Message: ValidationException:
+	Message: Install the required versions of packages using the requirements file. Requirements file location: c:\programdata\miniconda3\lib\site-packages\azureml\automl\core\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. 
+Required version/Installed version
+joblib<=0.14.1/joblib 0.17.0
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Install the required versions of packages using the requirements file. Requirements file location: c:\\programdata\\miniconda3\\lib\\site-packages\\azureml\\automl\\core\\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. \nRequired version/Installed version\njoblib<=0.14.1/joblib 0.17.0",
+        "inner_error": {
+            "code": "NotSupported",
+            "inner_error": {
+                "code": "IncompatibleOrMissingDependency"
+            }
+        },
+        "reference_code": "65e7ad52-ad1f-4915-85ad-440d0a5e221f"
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 49, in _log_activity
+    yield
+  File "package_utilities.py", line 465, in _get_package_incompatibilities
+    validated_requirements_file_path=VALIDATED_REQ_FILE_PATH
+
+ExceptionTarget: Unspecified
+2020-10-26 02:17:49.052 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:70 - ActivityCompleted: Activity=PackagesCheck, HowEnded=Failure, Duration=3627.77[ms]
+2020-10-26 02:31:06.887 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:223 - Local run configuration provided with docker set to False. Running local managed run.
+2020-10-26 02:31:06.887 - INFO - 8892 - azureml.train.automl.automlconfig._start_execution:257 - Submitting local legacy run.
+2020-10-26 02:31:06.892 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:46 - ActivityStarted: PackagesCheck
+2020-10-26 02:31:06.895 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-telemetry, Version: 1.16.0 found.
+2020-10-26 02:31:06.896 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataset-runtime, Version: 1.16.0 found.
+2020-10-26 02:31:06.897 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:31:06.906 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-core, Version: 1.16.0.post1 found.
+2020-10-26 02:31:06.925 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-rslex, Version: 1.1.1 found.
+2020-10-26 02:31:06.926 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:31:06.927 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cloudpickle, Version: 1.6.0 found.
+2020-10-26 02:31:06.927 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azureml-dataprep-native, Version: 23.0.0 found.
+2020-10-26 02:31:06.928 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:31:06.929 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:31:06.930 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: cryptography, Version: 3.1.1 found.
+2020-10-26 02:31:06.931 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pytz, Version: 2020.1 found.
+2020-10-26 02:31:06.932 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jsonpickle, Version: 1.4.1 found.
+2020-10-26 02:31:06.932 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:31:06.933 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: urllib3, Version: 1.23 found.
+2020-10-26 02:31:06.934 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: python-dateutil, Version: 2.8.1 found.
+2020-10-26 02:31:06.934 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:31:06.935 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:31:06.936 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:31:06.936 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: requests, Version: 2.24.0 found.
+2020-10-26 02:31:06.937 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:31:06.937 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:31:06.938 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:31:06.938 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ndg-httpsclient, Version: 0.5.1 found.
+2020-10-26 02:31:06.938 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: adal, Version: 1.2.4 found.
+2020-10-26 02:31:06.939 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:31:06.939 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:31:06.940 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:31:06.940 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pathspec, Version: 0.8.0 found.
+2020-10-26 02:31:06.941 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyopenssl, Version: 19.1.0 found.
+2020-10-26 02:31:06.941 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyjwt, Version: 1.7.1 found.
+2020-10-26 02:31:06.942 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:31:06.942 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: contextlib2, Version: 0.6.0.post1 found.
+2020-10-26 02:31:06.943 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:31:06.943 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: jmespath, Version: 0.10.0 found.
+2020-10-26 02:31:06.944 - INFO - 8892 - azureml.automl.core.package_utilities._get_package_incompatibilities:401 - Verified requirements file validated_win32_requirements.txt found.
+2020-10-26 02:31:10.171 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: applicationinsights, Version: 0.11.9 found.
+2020-10-26 02:31:10.171 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-common, Version: 1.1.25 found.
+2020-10-26 02:31:10.172 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-core, Version: 1.8.2 found.
+2020-10-26 02:31:10.173 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-10-26 02:31:10.173 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-identity, Version: 1.4.1 found.
+2020-10-26 02:31:10.174 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-10-26 02:31:10.175 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-10-26 02:31:10.175 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-10-26 02:31:10.176 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-resource, Version: 10.2.0 found.
+2020-10-26 02:31:10.176 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-10-26 02:31:10.177 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.tempfile, Version: 1.0 found.
+2020-10-26 02:31:10.177 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: backports.weakref, Version: 1.0.post1 found.
+2020-10-26 02:31:10.178 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto3 missing from working set.
+2020-10-26 02:31:10.179 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package boto missing from working set.
+2020-10-26 02:31:10.179 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package botocore missing from working set.
+2020-10-26 02:31:10.180 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package click missing from working set.
+2020-10-26 02:31:10.180 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package configparser missing from working set.
+2020-10-26 02:31:10.181 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package cython missing from working set.
+2020-10-26 02:31:10.181 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package dill missing from working set.
+2020-10-26 02:31:10.182 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: distro, Version: 1.5.0 found.
+2020-10-26 02:31:10.183 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: docker, Version: 4.3.1 found.
+2020-10-26 02:31:10.184 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: dotnetcore2, Version: 2.1.17 found.
+2020-10-26 02:31:10.185 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package fire missing from working set.
+2020-10-26 02:31:10.185 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package flask missing from working set.
+2020-10-26 02:31:10.186 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: fusepy, Version: 3.0.1 found.
+2020-10-26 02:31:10.186 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gensim missing from working set.
+2020-10-26 02:31:10.187 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package gunicorn missing from working set.
+2020-10-26 02:31:10.187 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-community missing from working set.
+2020-10-26 02:31:10.187 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package interpret-core missing from working set.
+2020-10-26 02:31:10.187 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package itsdangerous missing from working set.
+2020-10-26 02:31:10.187 - WARNING - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:283 - Package: joblib, Version: 0.17.0 found.
+2020-10-26 02:31:10.188 - ERROR - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:310 - found incompatible requirement joblib 0.17.0 but expected joblib<=0.14.1.
+2020-10-26 02:31:10.188 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package json-logging-py missing from working set.
+2020-10-26 02:31:10.188 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package keras2onnx missing from working set.
+2020-10-26 02:31:10.191 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package liac-arff missing from working set.
+2020-10-26 02:31:10.192 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package lightgbm missing from working set.
+2020-10-26 02:31:10.192 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal-extensions, Version: 0.2.2 found.
+2020-10-26 02:31:10.193 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msal, Version: 1.5.0 found.
+2020-10-26 02:31:10.193 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrest, Version: 0.6.19 found.
+2020-10-26 02:31:10.194 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: msrestazure, Version: 0.6.4 found.
+2020-10-26 02:31:10.194 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package nimbusml missing from working set.
+2020-10-26 02:31:10.195 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnx missing from working set.
+2020-10-26 02:31:10.196 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxconverter-common missing from working set.
+2020-10-26 02:31:10.196 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxmltools missing from working set.
+2020-10-26 02:31:10.197 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package onnxruntime missing from working set.
+2020-10-26 02:31:10.197 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package patsy missing from working set.
+2020-10-26 02:31:10.197 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package pmdarima missing from working set.
+2020-10-26 02:31:10.198 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package protobuf missing from working set.
+2020-10-26 02:31:10.198 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package psutil missing from working set.
+2020-10-26 02:31:10.198 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package py-cpuinfo missing from working set.
+2020-10-26 02:31:10.199 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: pyarrow, Version: 1.0.1 found.
+2020-10-26 02:31:10.199 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml.clib, Version: 0.2.2 found.
+2020-10-26 02:31:10.200 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-10-26 02:31:10.200 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package s3transfer missing from working set.
+2020-10-26 02:31:10.201 - INFO - 8892 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:277 - Package: secretstorage, Version: 3.1.2 found.
+2020-10-26 02:31:10.201 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package shap missing from working set.
+2020-10-26 02:31:10.201 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package skl2onnx missing from working set.
+2020-10-26 02:31:10.202 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package sklearn-pandas missing from working set.
+2020-10-26 02:31:10.202 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package smart-open missing from working set.
+2020-10-26 02:31:10.202 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package statsmodels missing from working set.
+2020-10-26 02:31:10.203 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package termcolor missing from working set.
+2020-10-26 02:31:10.203 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package typing-extensions missing from working set.
+2020-10-26 02:31:10.203 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:300 - Package werkzeug missing from working set.
+2020-10-26 02:31:10.204 - INFO - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:315 - User has the following compatible packages installed:
+applicationinsights==0.11.9
+azure-common==1.1.25
+azure-core==1.8.2
+azure-graphrbac==0.61.1
+azure-identity==1.4.1
+azure-mgmt-authorization==0.61.0
+azure-mgmt-containerregistry==2.8.0
+azure-mgmt-keyvault==2.2.0
+azure-mgmt-resource==10.2.0
+azure-mgmt-storage==11.2.0
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+distro==1.5.0
+docker==4.3.1
+dotnetcore2==2.1.17
+fusepy==3.0.1
+msal-extensions==0.2.2
+msal==1.5.0
+msrest==0.6.19
+msrestazure==0.6.4
+pyarrow==1.0.1
+ruamel.yaml.clib==0.2.2
+ruamel.yaml==0.16.12
+secretstorage==3.1.2
+2020-10-26 02:31:10.204 - WARNING - 8892 - azureml.automl.core.package_utilities._get_unverified_dependencies:319 - Skipping package validation check for non pypi packages:
+adal==1.2.4
+certifi==2020.6.20
+cffi==1.14.3
+chardet==3.0.4
+cloudpickle==1.6.0
+contextlib2==0.6.0.post1
+cryptography==3.1.1
+idna==2.10
+importlib-metadata==2.0.0
+isodate==0.6.0
+jeepney==0.4.3
+jinja2==2.11.2
+jmespath==0.10.0
+jsonpickle==1.4.1
+markupsafe==1.1.1
+ndg-httpsclient==0.5.1
+numpy==1.18.5
+oauthlib==3.1.0
+packaging==20.4
+pandas==0.25.3
+pathspec==0.7.0
+portalocker==1.7.1
+pyasn1==0.4.8
+pycparser==2.20
+pyjwt==1.7.1
+pyopenssl==19.1.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.1
+pywin32==227
+requests-oauthlib==1.3.0
+requests==2.24.0
+scikit-learn==0.22.1
+scipy==1.4.1
+six==1.15.0
+tqdm==4.31.1
+urllib3==1.24.3
+websocket-client==0.57.0
+zipp==3.3.0
+2020-10-26 02:31:10.206 - CRITICAL - 8892 - azureml.automl.core.package_utilities.log_traceback:224 - Type: IncompatibleOrMissingDependency
+Class: ValidationException
+Message: ValidationException:
+	Message: Install the required versions of packages using the requirements file. Requirements file location: c:\programdata\miniconda3\lib\site-packages\azureml\automl\core\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. 
+Required version/Installed version
+joblib<=0.14.1/joblib 0.17.0
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Install the required versions of packages using the requirements file. Requirements file location: c:\\programdata\\miniconda3\\lib\\site-packages\\azureml\\automl\\core\\validated_win32_requirements.txt. Alternatively, use remote target to avoid dependency management. \nRequired version/Installed version\njoblib<=0.14.1/joblib 0.17.0",
+        "inner_error": {
+            "code": "NotSupported",
+            "inner_error": {
+                "code": "IncompatibleOrMissingDependency"
+            }
+        },
+        "reference_code": "65e7ad52-ad1f-4915-85ad-440d0a5e221f"
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 49, in _log_activity
+    yield
+  File "package_utilities.py", line 465, in _get_package_incompatibilities
+    validated_requirements_file_path=VALIDATED_REQ_FILE_PATH
+
+ExceptionTarget: Unspecified
+2020-10-26 02:31:10.206 - INFO - 8892 - azureml.automl.core.package_utilities._log_activity:70 - ActivityCompleted: Activity=PackagesCheck, HowEnded=Failure, Duration=3313.66[ms]
