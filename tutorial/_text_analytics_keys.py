@@ -33,4 +33,5 @@ def sentiment_analysis_example(client):
         ))
 
 
-#sentiment_analysis_example(client)
+# sentiment_analysis_example(client)
+# Do not forget to add this file to .gitignore
